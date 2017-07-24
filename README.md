@@ -5,4 +5,4 @@ Use Power Manager to schedule these scripts at sleep, wake and critical battery 
 
 To use this, create a new directory called "Projects" in your HOME and clone this repo there.
 
-[Power Manager](https://www.dssw.co.uk/powermanager/)
+[Power Manager]:https://www.dssw.co.uk/powermanager/
