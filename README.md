@@ -1,5 +1,5 @@
 # mySafeSleep
-SafeSleep implementation for Hackintosh 10.10 - 10.12
+SafeSleep implementation for Hackintosh 10.10 - 10.11 (it doesn't work on 10.12, currently)
 
 Use [Power Manager](https://www.dssw.co.uk/powermanager/) to schedule these scripts at sleep, wake and critical battery level (optional).
 
