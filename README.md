@@ -4,8 +4,8 @@ SafeSleep implementation for Hackintosh 10.10 - 10.12
 Use [Power Manager](https://www.dssw.co.uk/powermanager/) to schedule these scripts at sleep, wake and critical battery level(optional).
 
 To use this:
-1. Create a new directory called "Projects" in your HOME and clone this repo there.
-2. Create a direcotry named "bin" in your HOME, and add this line to your bash_profile:
+1. Clone this repo in your HOME directory.
+2. Create a direcotry named `bin` in your HOME, and add this line to your bash_profile:
 
 ```
 echo "export PATH=$PATH:~/bin" >> ~/.bash_profile
