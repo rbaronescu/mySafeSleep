@@ -20,4 +20,11 @@ username ALL = (root) NOPASSWD: /Users/"your username"/bin/pmset_10.12
 ```
 
 ## Notes
+
+### Earlier version of macOS (Mac OS X)
 In case you're on Mac OS X 10.11 or 10.10 you have to substitute pmset_10.12 with pmset in your `/usr/bin/`.
+
+### How to use [Power Manager](https://www.dssw.co.uk/powermanager/)
+To add a Before Sleep event, click '+' and select 'Run a script before computer sleeps', leave the script empty, and go till the end of the configuration. Now hold ALT or CMD and double click the event, you can select run an applescript here and copy the before_sleep script.
+
+To add a On Wake event, add a new empty event. After that hold ALT or CMD and double click event, you can set it to run an applescript as before, and on trigger you will have to choose 'When computer powers on'.
