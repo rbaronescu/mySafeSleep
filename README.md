@@ -1,18 +1,18 @@
 # mySafeSleep
 SafeSleep implementation for Hackintosh 10.10 - 10.12
 
-Use [Power Manager](https://www.dssw.co.uk/powermanager/) to schedule these scripts at sleep, wake and critical battery level(optional).
+Use [Power Manager](https://www.dssw.co.uk/powermanager/) to schedule these scripts at sleep, wake and critical battery level (optional).
 
 To use this:
 1. Clone this repo in your HOME directory.
-2. Create a direcotry named `bin` in your HOME, and add this line to your bash_profile:
+2. Create a direcotry named `bin` in your HOME, and execute this command:
 
 ```
 echo "export PATH=$PATH:~/bin" >> ~/.bash_profile
 ```
 
 3. Copy pmset_10.10 and pmset_10.12 to `~/bin`.
-4. Modify sudoers file, such that `sudo pmset_10.10` and `sudo pmset_10.12` can be executed without asking the password:
+4. Modify sudoers file, such that `sudo pmset_10.10` and `sudo pmset_10.12` can be executed without asking the password (replace username):
 
 ```
 username ALL = (root) NOPASSWD: /Users/"your username"/bin/pmset_10.10
